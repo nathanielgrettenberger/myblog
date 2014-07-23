@@ -103,9 +103,10 @@ namespace MyBlog.Controllers
                 ViewBag.Error = " Incorect Username/Password. Try again.";
                     return View(log);
             }
-
-        
         }
+            
+        
+        
         
         
               

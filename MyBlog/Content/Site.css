@@ -2,7 +2,7 @@
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     color: #232323;
-    background-color: #fff;
+    background-image: url(http://wallpaperzoo.com/wp-content/uploads/2014/03/Cool-Graffiti-Wallpaper.jpg)
 }
 
 header, footer, nav, section {
@@ -58,4 +58,58 @@ textarea {
 
 .validation-summary-valid {
     display: none;
+}
+.hometitle{
+    text-align:center;
+    color:aliceblue;
+}
+.welheader{
+    text-align:center;
+    color:white;
+    font-family:Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}
+.comset  {
+    text-align:center;
+}
+.commentform fieldset{
+    text-align:center;
+
+}
+.logreg{
+    float:right;
+}
+fieldset{
+    background-image:url(http://www.fashionleisure.com/wp-content/uploads/2014/07/backgrounds-for-desktop-computers.jpg);
+    margin-left: 400px;
+     width: 50%;
+     text-align:center;
+}
+.comment{
+    font-size:large;
+    font-style:oblique;
+    color:white;
+}
+.post{
+    color:white;
+    font-size:large;
+    
+}
+.imgurl {
+    text-align:center;
+}
+.title{
+    text-align:center;
+}
+.table{
+    color:white;
+    font-size:large;
+    font-family:Impact 12px;
+    font-style:normal;
+    background-image:url(http://2.bp.blogspot.com/_36SFFFDlygA/TOxQDZk6O1I/AAAAAAAAJJc/s4jGp5ok6dY/s400/Graffiti-background-1.jpg)
+}
+.table{
+    color: white;
+}
+.posttab{
+    color: white;
 }

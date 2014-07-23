@@ -9,19 +9,24 @@
 </head>
 <body>
     <header>
-        <h1>My Blog</h1>
+        <div class=" welheader">
+        <h1> Welcome To My Blog!!</h1>
+
+        </div>
         @if (Request.IsAuthenticated)
         {
             <div>
                 Welcome @User.Identity.Name!
                | <a href="@Url.Action("Logout", "Account")"> Logout</a>
                 |<a href="@Url.Action("Create", "Post")">Create a new post</a>
+                <a href="@Url.Action("Index", "Home")"> The Blog</a>
+                <a href="@Url.Action("Index", "Post")">View Post</a>
             </div> 
         
         }
         else
         {
-            <div>
+            <div class="logreg">
                 <a href="@Url.Action("Login", "Account")">Login</a>
                 <a href="@Url.Action("Register", "Account")">Register</a>
 
@@ -39,5 +44,6 @@
 
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
+    "
 </body>
 </html>

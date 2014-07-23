@@ -3,9 +3,9 @@
 @{
     ViewBag.Title = "Index";
 }
-
-<h2>Index</h2>
-
+<div class="hometitle">
+<h2>Welcome MY Fellow Bloggers!! Enjoy Your Time!!</h2>
+</div>
 
 @if (Model.Any())
 {
@@ -18,28 +18,36 @@
                 <div class="body">
                     @if (!string.IsNullOrEmpty(post.ImageURL))
                     {
+                        <div class="imgurl">
                         <img src="@post.ImageURL" />
-                    }
-                    @post.Body
-                    <div class="likes">
-                        @post.Likes likes
-                        <div class="comments">
-                            @foreach (var comment in post.Comments)
-                            
-	{
-                                <div class="comment">
-                                    <span class="commentTitle">
-                                        By: @comment.Name on @comment.DateCreate
-                                    </span>
-                                    <div>@comment.Body</div>
-                                </div>
-		 
-	}
 
+                        </div>
+                    }
+
+                        
+                    @post.Body
+                    <div class="likes" data-id="@post.PostID">
+                        @post.Likes likes
+                        </div>
+                        <div class="commentContianer">
+                            @if (post.Comments.Any())
+                            {
+                            foreach (var comment in post.Comments)
+                            
+	                        {   <div>
+                                @Html.Partial("CommentOutput", comment)
+                                 </div>
+		        
+	                               }
+    }else{<div>No Comments</div>}
+
+<div class="addComment">
+    @Html.Partial("addComment", new MyBlog.Models.Comment() { PostID = post.PostID })
+</div>
                            
                         </div>
 
-                    </div>
+                    
 
                 </div>
             </div>
