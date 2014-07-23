@@ -2,7 +2,7 @@
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     color: #232323;
-    background-image: url(http://wallpaperzoo.com/wp-content/uploads/2014/03/Cool-Graffiti-Wallpaper.jpg)
+    background-image: url(http://3.bp.blogspot.com/-wjiybscffz8/T5Qf9Dp8zFI/AAAAAAAAA1w/0xo2c7opOk4/s1600/dark-rainy-city.jpg)
 }
 
 header, footer, nav, section {
@@ -79,10 +79,11 @@ textarea {
     float:right;
 }
 fieldset{
-    background-image:url(http://www.fashionleisure.com/wp-content/uploads/2014/07/backgrounds-for-desktop-computers.jpg);
+    background-image:url(http://fc07.deviantart.net/fs71/i/2012/311/2/4/spiral___dark_background_by_arobeddy-d5kaqlm.jpg);
     margin-left: 400px;
      width: 50%;
      text-align:center;
+     color:white;
 }
 .comment{
     font-size:large;
@@ -105,11 +106,16 @@ fieldset{
     font-size:large;
     font-family:Impact 12px;
     font-style:normal;
-    background-image:url(http://2.bp.blogspot.com/_36SFFFDlygA/TOxQDZk6O1I/AAAAAAAAJJc/s4jGp5ok6dY/s400/Graffiti-background-1.jpg)
+    background-image:url(http://fc07.deviantart.net/fs71/i/2012/311/2/4/spiral___dark_background_by_arobeddy-d5kaqlm.jpg)
 }
 .table{
     color: white;
 }
 .posttab{
     color: white;
+}
+logininfo{
+    text-color:white;
+    font-family:Impact,  Haettenschweiler,  'Arial Narrow Bold',  sans-serif;
+    font-style:normal;s
 }
